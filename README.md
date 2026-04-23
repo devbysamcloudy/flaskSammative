@@ -37,7 +37,7 @@ inventory-system/
 
 1. **Clone the repository**
 ```bash
-git clone <your-repo-link>
+git clone https://github.com/devbysamcloudy/flaskSammative
 cd inventory-system
 ```
 
@@ -126,7 +126,7 @@ All pull requests were merged before final submission.
 
 **Samuel Nganga**  
 - Email: [snganga685@gmail.com](mailto:snganga685@gmail.com)  
-- GitHub: [devbysamcloudy](https://github.com/devbysamcloudy/flaskSammative)
+- GitHub: [devbysamcloudy/flaskSammative](https://github.com/devbysamcloudy/flaskSammative)
 
 ## License
 
