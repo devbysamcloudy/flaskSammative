@@ -61,7 +61,7 @@ def items():
 
         existing_item = Item.query.filter_by(barcode=barcode).first()
         if existing_item:
-            return jsonify({"message": "Item already exists"}), 200
+            return jsonify({"message": "Itm already exists"}), 200
 
         item = Item(name=name, quantity=quantity, price=price, barcode=barcode)
         db.session.add(item)

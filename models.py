@@ -7,4 +7,6 @@ class Item(db.Model):
     name = db.Column(db.String(100))
     quantity = db.Column(db.Integer)
     price = db.Column(db.Float)
-    barcode = db.Column(db.String(50))
+    barcode = db.Column(db.String(50), unique=True)
+
+    
